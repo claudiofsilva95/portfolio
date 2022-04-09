@@ -1,0 +1,24 @@
+.cab {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.9rem 5rem;
+  align-items: flex-end;
+  background-color: #000;
+  height: 120px;
+}
+
+.nav ul{
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  width: 7em;
+}
+
+.nav ul li a {
+  color: #fff;
+  transition: .3s;
+}
+
+.nav ul li a:hover {
+  color: rgb(21, 67, 219);
+}
